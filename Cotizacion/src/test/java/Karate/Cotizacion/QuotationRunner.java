@@ -13,7 +13,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-@KarateOptions(tags = {"~@ignore"})
+
 public class QuotationRunner 
 {
 	@Test
