@@ -13,7 +13,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-@KarateOptions(features = "classpath:Karate.Cotizacion/quotation.feature")
+@KarateOptions(features = "classpath:Karate/Cotizacion/quotation.feature")
 public class QuotationRunner 
 {
 	@Test
