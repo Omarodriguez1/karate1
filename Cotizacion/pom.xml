@@ -47,13 +47,6 @@
     <version>2.0.0</version>
 </dependency>
     
-<dependency>
-    	<groupId>net.masterthought</groupId>
-    	<artifactId>maven-cucumber-reporting</artifactId>
-    	<version>5.0.0</version>
-	<scope>test</scope>
-	<type>pom</type>
-</dependency>
 
 	  
 	  <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-report-plugin 
@@ -90,10 +83,13 @@
           <version>3.0.0-M5</version>
         </plugin>  -->
 	      
-	      <plugin>
+	<plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-report-plugin</artifactId>
           <version>3.0.0-M5</version>
+		 <configuration>
+                    <argLine>-Dfile.encoding=UTF-8</argLine>
+                </configuration>
         </plugin>
 	      
         <plugin> 
