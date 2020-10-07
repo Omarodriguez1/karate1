@@ -13,7 +13,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-@KarateOptions(features = "classpath:Karate/Cotizacion/quotation.feature")
+@KarateOptions(tags = {"~@ignore"})
 public class QuotationRunner 
 {
 	@Test
